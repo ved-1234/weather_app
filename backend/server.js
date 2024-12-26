@@ -12,7 +12,15 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+// Replace with your frontend URL
+const corsOptions = {
+  origin: 'https://skycast12345.netlify.app',  // Replace with your frontend URL
+  methods: ['GET', 'POST'],  // Specify allowed methods
+  credentials: true,  // Allow credentials like cookies to be sent
+};
+
+app.use(cors(corsOptions));  // Apply CORS with specific options
+
 app.use(bodyParser.json());
 
 // MongoDB connection
