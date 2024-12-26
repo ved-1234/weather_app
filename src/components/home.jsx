@@ -19,7 +19,7 @@ function Home() {
 
     try {
       // Send username and password to backend for verification
-      const response = await axios.post('http://localhost:5000/api/check-user', { username, password });
+      const response = await axios.post('https://weather-app-v2yq.onrender.com/api/check-user', { username, password });
 
       if (response.status === 200) {
         // User verified successfully                      
