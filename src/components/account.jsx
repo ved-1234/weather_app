@@ -25,7 +25,7 @@ function Account() {
 
     try {
       // Send data to backend
-      const response = await axios.post('http://localhost:5000/api/users', {
+      const response = await axios.post('https://weather-app-v2yq.onrender.com/api/users', {
         email: email,
         mobileno: mobileno,
         password: password,
