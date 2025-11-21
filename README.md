@@ -4,7 +4,7 @@ This project contains a React + Vite frontend in the root folder and a Node.js b
 Both must be started separately.
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourname/weatherApp.git
+git clone https://github.com/ved-1234/weather_app.git
 cd weatherApp
 
 2️⃣ Install Frontend Dependencies
