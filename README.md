@@ -5,6 +5,7 @@ Both must be started separately.
 
 1️⃣ Clone the Repository
 git clone https://github.com/ved-1234/weather_app.git
+
 cd weatherApp
 
 2️⃣ Install Frontend Dependencies
